@@ -1,0 +1,213 @@
+*{margin:0;
+padding:0;
+border:border-box;
+font-family:arial;
+}
+.car-navbar{
+    height:70px;
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
+
+}
+.car-logo{
+    width:100px;
+    height:100px;
+}
+.car-logo-image{
+    background-image:url("garuda symbol final.jpeg");
+    background-size: cover;
+    width:80px;
+    height:80px;
+
+
+}
+.MESS-NAVBAR {
+    font-size:1rem;
+    color:rgba(212, 54, 6, 0.89);
+    font-weight: bold;
+    
+    
+}
+.know-navbar{
+    align-items: center;
+    font-size:1rem;
+    color:white;
+    font-weight: bold;
+}
+#border:hover{
+    border:1.5px solid white;
+    cursor: pointer;
+    background-color: rgb(40, 22, 202);
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+transition-timing-function: ease-in-out;
+font-size: 1.1rem;
+}
+.icon1-navbar{
+    color:grey;
+}
+.info-navbar{
+    height:40px;
+    background-color:black;
+    color:aquamarine;
+    align-items: center;
+    justify-content:space-evenly;
+    display:flex;   
+
+}
+.info-navbar :hover{
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    transition-duration: 0.8S;
+    transition-timing-function: ease-in-out;
+    font-size: 1.1REM;
+    border: 2PX SOLID AQUAMARINE;
+    background-color: rgb(67, 6, 180);
+    border-radius: 5PX;
+}
+/*SECTION*/
+.car-section{
+    background-color:black;
+    height:1200px;
+
+}
+.car2{
+    width:1,700px;
+    height:700px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+.box1{
+    width:300px;
+    height:400px;
+    background-color:rgb(0, 0, 0);
+    position:absolute;
+    top:900px;
+    left:50px;
+    border-radius: 10PX;
+    COLOR:blue;
+    text-align: center;
+    
+}
+.box2{
+    width:300px;
+    height:400px;
+    background-color:rgb(0, 0, 0);
+    position:absolute;
+    top:900px;
+    left:470px;
+    border-radius: 10PX;
+    COLOR:blue;
+    text-align: center;
+}
+.box3{
+    width:300px;
+    height:400px;
+    background-color:rgb(0, 0, 0);
+    position:absolute;
+    top:900px;
+    left:900px;
+    border-radius: 10PX;
+    COLOR:blue;
+    text-align: center;
+}
+.box1{
+    width:300px;
+    height:400px;
+    background-image:url("interiour.webp");
+    background-size: cover;
+    
+    border-radius: 10PX;
+}
+.box2{
+    background-image: url("exterior.avif");
+    background-size: cover;
+    width:300px;
+    height:400px;
+}
+.box3{
+background-image: url("future vision.png");
+background-size: cover;
+height:400px;
+width:300px;
+}
+.box1:hover{
+        border: 1.5px solid aquamarine;
+        
+}
+
+.box2:hover{
+     border: 1.5px solid aquamarine;
+}
+.box3:hover{
+     border: 1.5px solid aquamarine;
+}
+.test-drive{
+    height:300px;
+    width: 80%px;
+    background-color: black;
+    color:aqua;
+    align-items: center;
+}
+.des{
+    padding-top: 40px;
+    font-size: 1rem;
+    text-align: justify;
+    padding: 20px;
+    line-height: 1.6;
+}
+.car1{
+    margin-top: 30px;
+    width:300px;
+    height:200px;
+    float:right;
+    margin-right:20px;
+    border-radius: 10PX;
+}
+.showroom{
+    height:600px;
+    width:100%;
+    background-color: black;
+
+}
+.map{
+    color:blue;
+    font-size: 3rem;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-evenly;
+    display:flex;
+}
+.MAPS{
+    margin-top:50px;
+    margin-left:90px;
+    height: 400px;
+    width:80%;
+}
+.line{
+    color:snow;
+}
+.footer-section{
+    color:rebeccapurple;
+    height:60px;
+    width:100%;
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-section{
+    height:500px;
+    width:100%;
+}
+.info-section{
+    display: flex;
+    justify-content: space-evenly
+    ;
+}
